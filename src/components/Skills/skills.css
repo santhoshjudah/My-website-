@@ -1,0 +1,141 @@
+#skills{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.skillHead{
+    position: absolute;
+    left: 34rem;
+    top: 2rem;
+}
+
+.skillPara{
+    position: absolute;
+    left: 4rem;
+    top: 7rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.htmlImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 6rem;
+    right: 25rem;
+    
+}
+.cssImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute; 
+    top: 6rem;
+    right: 15rem;
+    
+}
+.jsImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 6rem;
+    right: 5rem;
+    
+}
+.reactImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 16rem;
+    right: 20rem;
+}
+
+.bootImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 16rem;
+    right: 10rem;
+}
+
+.javaImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 27rem;
+    right: 25rem;
+    
+}
+.springImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 27rem;
+    right: 15rem;
+    
+}
+.mysqlImg{
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    position: absolute;
+    top: 27rem;
+    right: 5rem;
+}
+
+
+@media screen and (max-width:840px) {
+
+    .skillContent{
+        position: absolute;
+        right: 10rem;
+        top: 2rem;
+    }
+
+    .skillHead{
+        font-size: 2rem;
+        left:-20rem;
+        top: -2rem;
+    }
+
+    .skillPara{
+        font-size: 1rem;
+        left:-30rem;
+        top: 38rem;
+        width: 30rem;
+        /* position: absolute;
+        top: 42rem;
+        left: 15rem; */
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .skillContent{
+        position: absolute;
+        left: 22rem;
+        width: 10rem;
+    }
+
+    .skillHead{
+        font-size: 1rem;
+        /* left: 0rem; */
+        /* top: 0rem; */
+    }
+
+    .skillPara{
+        width: 10rem;
+        left: 20rem;
+    }
+
+}

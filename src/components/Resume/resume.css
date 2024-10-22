@@ -1,0 +1,85 @@
+#resume{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.resumeHead{
+    position: absolute;    
+    top: 15rem;
+    left: 50rem;
+}
+
+.resumePara{
+    position: absolute;    
+    top: 18rem;
+    left: 50rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.btn{
+    border-radius: 5px;
+    right: 0.5rem;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.resumeImg{
+        height: 80vh;
+        width: 90vh;
+        object-fit: cover;
+        display: flex;
+        position: relative;
+        top: 3rem;
+        left: 4rem;
+}
+
+@media screen and (max-width:840px) {
+
+    .resumeImg{
+        height: 40rem;
+        width: 45rem;
+    }
+
+    .resumeHead{
+        position: absolute;
+        left: 5rem;
+        top: 50rem;
+        font-size: 2rem;
+    }
+
+    .resumePara{
+        position: absolute;
+        left: 5rem;
+        top: 53rem;
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .resumeImg{
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .resumeHead{
+        position: absolute;
+        left: 5rem;
+        top: 25rem;
+        font-size: 1.5rem;
+    }
+
+    .resumePara{
+        position: absolute;
+        left: 5rem;
+        top: 29rem;
+        font-size: 1.5rem;
+    }
+
+}

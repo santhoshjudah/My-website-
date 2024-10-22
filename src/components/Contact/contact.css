@@ -1,0 +1,137 @@
+#contact {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.contactPage {
+    position: absolute;
+    top: 8rem;
+    left: 4rem;
+}
+
+.contactDisc {
+    position: absolute;
+    left: 4rem;
+    top: 11rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactEmail{
+    position: absolute;
+    left: 4rem;
+    top: 15rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactPhone{
+    position: absolute;
+    left: 4rem;
+    top: 18rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vh;
+    max-width: 60rem;
+    position: absolute;
+    top: 8rem;
+    right: 6rem;
+}
+
+
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+
+}
+
+.links {
+    
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+@media screen and (max-width:840px) {
+   
+    .contactForm{
+            position: absolute;
+            top: 20rem;
+            left: 5rem;
+            height: 40rem;
+            width: auto;
+            object-fit: cover;
+    }
+
+    .contactEmail{
+        position: absolute;
+        left: 4rem;
+        font-size: 1rem;
+    }
+
+    .contactPhone{
+        position: absolute;
+        left: 4rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    #contact{
+        height: 50rem;
+    }
+   
+    .contactForm{
+        position: absolute;
+        top: 20rem;
+        left: 5rem;
+        width: auto;
+    }
+
+    .contactEmail{
+        position: absolute;
+        left: 4rem;
+    }
+
+    .contactPhone{
+        position: absolute;
+        left: 4rem;
+    }
+}

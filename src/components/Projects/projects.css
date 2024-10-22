@@ -1,0 +1,101 @@
+#project{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.projectHead{
+    position: absolute;
+    left: 2rem;
+    top: 5rem;
+}
+
+.projectPara{
+    position: absolute;
+    left: 2rem;
+    top: 8rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.projectImgpuzzle{
+    height: 15rem;
+    width: 23rem;
+    object-fit: cover;
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    border-radius: 15px;
+}
+
+.projectImgTodolist{
+    height: 15rem;
+    width: 23rem;
+    object-fit: cover;
+    position: absolute;
+    top: 12rem;
+    left: 28.5rem;
+    border-radius: 15px;
+}
+
+.projectImgDragdrop{
+    height: 15rem;
+    width: 23rem;
+    object-fit: cover;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:840px) {
+
+    .projectImgpuzzle{
+        position: absolute;
+        top: 15rem;
+        left: 12rem;
+    }
+
+    .projectImgTodolist{
+        position: absolute;
+        top: 55rem;
+        left: 12rem;
+    }
+    .projectImgDragdrag{
+        position: absolute;
+        top: 35rem;
+        left: 12rem;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .projectImgpuzzle{
+        position: absolute;
+        top: 12rem;
+        left:5rem;
+        height: 10rem;
+        width: 16rem;
+    }
+
+    .projectImgTodolist{
+        position: absolute;
+        top: 25rem;
+        left: 5rem;
+        height: 10rem;
+        width: 16rem;
+    }
+    .projectImgDragdrop{
+        position: absolute;
+        top: 38rem;
+        left: 5rem;
+        height: 10rem;
+        width: 16rem;
+    }
+
+}
