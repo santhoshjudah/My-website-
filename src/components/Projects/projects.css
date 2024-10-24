@@ -54,9 +54,7 @@
 
 @media screen and (max-width:840px) {
 
-    /* .projectHead{
-
-    } */
+    
 
     .projectPara{
         /* top: 2.5rem; */
@@ -88,27 +86,31 @@
 
 @media screen and (max-width:480px) {
 
+    .projectHead{
+        top: 0rem;
+    }
+
     .projectPara{
-        /* top: 2.5rem; */
+        top: 2.5rem;
         font-size: 0.75rem;
     }
 
     .projectImgpuzzle{
-        top: 12rem;
-        left: 5rem;
+        top: 6rem;
+        left: 2rem;
         height: 10rem;
-        width: 20em;
+        width: 20rem;
     }
 
     .projectImgTodolist{
-        top: 24rem;
-        left: 5rem;
+        top: 17rem;
+        left: 2rem;
         height: 10rem;
         width: 20rem;
     }
     .projectImgDragdrop{
-        top: 36rem;
-        left: 5rem;
+        top: 28rem;
+        left: 2rem;
         height: 10rem;
         width: 20rem;
     }

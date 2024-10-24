@@ -176,7 +176,7 @@
 @media screen and (max-width:480px) {
 
     .skillHead{
-        left: 12rem;
+        left: 10rem;
         top: 0rem;
     }
 
@@ -185,7 +185,7 @@
                 /* font-size: 1rem; */
             left: 2rem;
             top: 3rem;
-            font-size: 1rem;
+            font-size: 0.75rem;
             /* font-size: medium;
             font-weight: 300; */
         }
@@ -194,7 +194,7 @@
             height: 7vh;
             width: auto;
             object-fit: cover;
-            top: 33rem;
+            top: 23rem;
             left: 2rem;
         }
 
@@ -202,31 +202,31 @@
             height: 8vh;
             width: auto;
             object-fit: cover;
-            top: 32.5rem;
-            left: 8rem;
+            top: 22.5rem;
+            left: 7rem;
         }
 
         .jsImg{
             height: 8vh;
             width: auto;
             object-fit: cover;
-            top: 33rem;
-            left: 15rem;
+            top: 23rem;
+            left: 12rem;
         }
 
         .reactImg{
             height: 8vh;
             width: auto;
             object-fit: cover;
-            top: 33rem;
-            left: 21rem;
+            top: 23rem;
+            left: 17rem;
         }
 
         .bootImg{
             height: 8vh;
             width: auto;
             object-fit: cover;
-            top: 39rem;
+            top: 28rem;
             left: 2rem;
         }
         
@@ -234,24 +234,24 @@
             height: 8vh;
             width: auto;
             object-fit: cover;
-            top: 39rem;
-            left: 8rem;
+            top: 28rem;
+            left: 7rem;
         }
 
         .springImg{
             height: 8vh;
             width: auto;
             object-fit: cover;
-            top: 39rem;
-            left: 15rem;
+            top: 28rem;
+            left: 12rem;
         }
 
         .mysqlImg{
             height: 8vh;
             width: auto;
             object-fit: cover;
-            top: 39rem;
-            left: 21rem;
+            top: 28rem;
+            left: 17rem;
         }
     
 }

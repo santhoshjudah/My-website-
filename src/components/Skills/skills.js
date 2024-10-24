@@ -26,16 +26,15 @@ const Skill = () => {
             🟣UI/UX principles<br/>
             🟣Responsive Web Design<br/>
             🟣github(version control)<br/><br/>
-
-    BACKEND SKILLS:<br/>
-    🟡Programming languages:<br/>
-    - Java<br/>
-    🟡Frameworks:<br/>
-    - Spring Boot (Java)<br/>
-
-    🟡Database:<br/>
-    - Relational databases (MySQL, PostgreSQL)<br/>
-    </p>
+            BACKEND SKILLS:<br/>
+            🟡Programming languages:<br/>
+            - Java<br/>
+            🟡Frameworks:<br/>
+            - Spring Boot (Java)<br/>
+            
+            🟡Database:<br/>
+            - Relational databases (MySQL, PostgreSQL)<br/>
+            </p>
 
     <div className='skillImg'>
     <img src={html} alt='html' className='htmlImg'/>
