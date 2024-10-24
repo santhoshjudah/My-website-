@@ -78,8 +78,8 @@ border-radius: 1rem;
 }
 
 .mobmenu{
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     display: none;
     object-fit: cover;
 }

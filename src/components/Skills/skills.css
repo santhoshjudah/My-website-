@@ -28,7 +28,6 @@
     position: absolute;
     top: 6rem;
     right: 25rem;
-    
 }
 .cssImg{
     height: 5rem;
@@ -96,46 +95,163 @@
 
 @media screen and (max-width:840px) {
 
-    .skillContent{
-        position: absolute;
-        right: 10rem;
-        top: 2rem;
-    }
-
     .skillHead{
-        font-size: 2rem;
-        left:-20rem;
-        top: -2rem;
+        left: 2rem;
     }
 
-    .skillPara{
-        font-size: 1rem;
-        left:-30rem;
-        top: 38rem;
-        width: 30rem;
-        /* position: absolute;
-        top: 42rem;
-        left: 15rem; */
-    }
+        .skillPara{
+            /* left: 2rem; */
+            top: 5rem;
+            font-size: 1.5rem;
+            /* font-size: medium;
+            font-weight: 300; */
+        }
+
+        .htmlImg{
+            height: 7vh;
+            width: auto;
+            object-fit: cover;
+            top: 45rem;
+            left: 4rem;
+        }
+
+        .cssImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 44.5rem;
+            left: 14rem;
+        }
+
+        .jsImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 45rem;
+            left: 24rem;
+        }
+
+        .reactImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 45rem;
+            left: 34rem;
+        }
+
+        .bootImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 55rem;
+            left: 4rem;
+        }
+        
+        .javaImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 55rem;
+            left: 14rem;
+        }
+
+        .springImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 55rem;
+            left: 24rem;
+        }
+
+        .mysqlImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 55rem;
+            left: 34rem;
+        }
+    
 }
 
 @media screen and (max-width:480px) {
 
-    .skillContent{
-        position: absolute;
-        left: 22rem;
-        width: 10rem;
-    }
-
     .skillHead{
-        font-size: 1rem;
-        /* left: 0rem; */
-        /* top: 0rem; */
+        left: 12rem;
+        top: 0rem;
     }
 
-    .skillPara{
-        width: 10rem;
-        left: 20rem;
-    }
+        .skillPara{
+            /* position: absolute; */
+                /* font-size: 1rem; */
+            left: 2rem;
+            top: 3rem;
+            font-size: 1rem;
+            /* font-size: medium;
+            font-weight: 300; */
+        }
 
+        .htmlImg{
+            height: 7vh;
+            width: auto;
+            object-fit: cover;
+            top: 33rem;
+            left: 2rem;
+        }
+
+        .cssImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 32.5rem;
+            left: 8rem;
+        }
+
+        .jsImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 33rem;
+            left: 15rem;
+        }
+
+        .reactImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 33rem;
+            left: 21rem;
+        }
+
+        .bootImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 39rem;
+            left: 2rem;
+        }
+        
+        .javaImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 39rem;
+            left: 8rem;
+        }
+
+        .springImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 39rem;
+            left: 15rem;
+        }
+
+        .mysqlImg{
+            height: 8vh;
+            width: auto;
+            object-fit: cover;
+            top: 39rem;
+            left: 21rem;
+        }
+    
 }

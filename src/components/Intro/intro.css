@@ -63,35 +63,51 @@ position: relative;
 
     .introContent{
         position: absolute;
-        top: 0rem;
-        font-size: 5vw;
-        color: black;
+        /* top: 0rem; */
+        font-size: 2rem;
+        top: 10rem;
     }
+
     .bg{
-        right: 6vw;
-        /* top: 0; */
-        height: 70vh;
-        width: 90vw;
+        height: auto;
+        width: 100vw;
+        left: 0rem;
+        top: 3rem;
     }
-
-    .hello{
-        /* position: absolute; */
-        font-size: 4.5vw;
-    }
-}
-
-@media screen and (max-width:480px) {
-
-    /* .introContent{
-        font-size: 2vw;
-    } */
 
     .hello{
         font-size: 4vw;
     }
 
     .introPara{
-        font-size: 3vw;
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+
+    .introContent{
+        position: absolute;
+        /* top: 0rem; */
+        font-size: 1.5rem;
+        top: 5rem;
+    }
+
+    .bg{
+        height: auto;
+        width: 100vw;
+        left: 0rem;
+        top: 3rem;
+    }
+
+    .hello{
+        font-size: 4vw;
+    }
+
+    .introPara{
+        font-size: 2.5vw;
         font-weight: 500;
     }
 

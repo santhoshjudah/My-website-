@@ -37,6 +37,7 @@ const Skill = () => {
     - Relational databases (MySQL, PostgreSQL)<br/>
     </p>
 
+    <div className='skillImg'>
     <img src={html} alt='html' className='htmlImg'/>
     <img src={css} alt='css' className='cssImg'/>
     <img src={js} alt='js' className='jsImg'/>
@@ -45,6 +46,7 @@ const Skill = () => {
     <img src={spring} alt='spring' className='springImg'/>
     <img src={mysql} alt='mysql' className='mysqlImg'/>
     <img src={boot} alt='mysql' className='bootImg'/>
+    </div>
 
       </div>
 

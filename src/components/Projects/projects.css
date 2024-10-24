@@ -54,48 +54,63 @@
 
 @media screen and (max-width:840px) {
 
+    /* .projectHead{
+
+    } */
+
+    .projectPara{
+        /* top: 2.5rem; */
+        font-size: 1.5rem;
+    }
+
     .projectImgpuzzle{
-        position: absolute;
         top: 15rem;
-        left: 12rem;
+        left: 10rem;
+        height: 15rem;
+        width: 25rem;
     }
 
     .projectImgTodolist{
-        position: absolute;
-        top: 55rem;
-        left: 12rem;
+        top: 32rem;
+        left: 10rem;
+        height: 15rem;
+        width: 25rem;
     }
-    .projectImgDragdrag{
-        position: absolute;
-        top: 35rem;
-        left: 12rem;
+
+    .projectImgDragdrop{
+        top: 49rem;
+        left: 10rem;
+        height: 15rem;
+        width: 25rem;
     }
 
 }
 
 @media screen and (max-width:480px) {
 
+    .projectPara{
+        /* top: 2.5rem; */
+        font-size: 0.75rem;
+    }
+
     .projectImgpuzzle{
-        position: absolute;
         top: 12rem;
-        left:5rem;
+        left: 5rem;
         height: 10rem;
-        width: 16rem;
+        width: 20em;
     }
 
     .projectImgTodolist{
-        position: absolute;
-        top: 25rem;
+        top: 24rem;
         left: 5rem;
         height: 10rem;
-        width: 16rem;
+        width: 20rem;
     }
     .projectImgDragdrop{
-        position: absolute;
-        top: 38rem;
+        top: 36rem;
         left: 5rem;
         height: 10rem;
-        width: 16rem;
+        width: 20rem;
     }
 
 }

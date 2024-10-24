@@ -9,14 +9,14 @@
 
 .contactPage {
     position: absolute;
-    top: 8rem;
+    top: 10rem;  
     left: 4rem;
 }
 
 .contactDisc {
     position: absolute;
     left: 4rem;
-    top: 11rem;
+    top: 13rem;
     font-size: medium;
     font-weight: 300;
 }
@@ -24,7 +24,7 @@
 .contactEmail{
     position: absolute;
     left: 4rem;
-    top: 15rem;
+    top: 18rem;
     font-size: medium;
     font-weight: 300;
 }
@@ -32,7 +32,7 @@
 .contactPhone{
     position: absolute;
     left: 4rem;
-    top: 18rem;
+    top: 20rem;
     font-size: medium;
     font-weight: 300;
 }
@@ -91,7 +91,7 @@
 @media screen and (max-width:840px) {
    
     .contactForm{
-            position: absolute;
+            /* position: absolute; */
             top: 20rem;
             left: 5rem;
             height: 40rem;
@@ -99,39 +99,60 @@
             object-fit: cover;
     }
 
+    .contactPage{
+        top: 10rem;
+        left: 2rem;
+    }
+
+    .contactDisc{
+        top: 13rem;
+        left: 2rem;
+        font-size: 1.5rem;
+    }
+
     .contactEmail{
-        position: absolute;
+        /* position: absolute; */
         left: 4rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .contactPhone{
-        position: absolute;
+        /* position: absolute; */
         left: 4rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
 @media screen and (max-width:480px) {
-
-    #contact{
-        height: 50rem;
-    }
    
     .contactForm{
-        position: absolute;
-        top: 20rem;
-        left: 5rem;
-        width: auto;
+        top: 0;
+        left: 1.5rem;
+        height: 100vh;
+        width: 80vw;
+    }
+
+    .contactPage{
+        top: 0rem;
+        left: 2rem;
+
+    }
+
+    .contactDisc{
+        top: 3rem;
+        left: 2rem;
+        font-size: 1rem;
     }
 
     .contactEmail{
-        position: absolute;
-        left: 4rem;
+        top: 8rem;
+        left: 2rem;
+        font-size: 1rem;
     }
 
     .contactPhone{
-        position: absolute;
-        left: 4rem;
+        top: 10rem;
+        left: 2rem;
+        font-size: 1rem;
     }
 }
